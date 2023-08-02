@@ -1,5 +1,3 @@
-lists.h
-
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -7,7 +5,11 @@ lists.h
 #include <stdlib.h>
 
 /**
- * list of struct int_s - singly linked 
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
  * for alx project
  */
 typedef struct listint_s
